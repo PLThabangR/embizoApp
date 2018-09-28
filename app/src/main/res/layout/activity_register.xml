@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front_page"
+    tools:context=".registerActivity">
+
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:background="@drawable/custume_text_bg"
+        android:ems="10"
+        android:hint="last name"
+        android:inputType="textPersonName"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#faf0f3" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/usernameText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custume_text_bg"
+        android:ems="10"
+        android:hint="Your email"
+        android:inputType="textEmailAddress"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#faf0f3" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/emailText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custume_text_bg"
+        android:ems="10"
+        android:hint="Your password"
+        android:inputType="textPassword"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#faf0f3" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fdfdfd"
+        android:layout_marginTop="51dp"
+        android:text="Registration"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fdfdfd"
+        android:layout_marginBottom="22dp"
+        android:text="Terms and condition" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fdfdfd"
+        android:text="By Signing up you accept the " />
+
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/passwordText"
+        android:layout_centerHorizontal="true"
+        android:background="#0277BD"
+        android:fadeScrollbars="true"
+        android:fontFamily=""
+        android:onClick="logUserInn"
+        android:paddingBottom="10dp"
+        android:text="login"
+        android:textSize="18sp" />
+
+</RelativeLayout>

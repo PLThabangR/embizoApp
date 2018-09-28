@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+
+        android:id="@+id/navigation_items_1"
+        android:title="Services" >
+    <menu>
+
+
+             <item android:id="@+id/nav_wifi"
+                 android:checkable="true"
+                android:title="Wifi"
+                 />
+
+    <item android:id="@+id/nav_lte"
+        android:checkable="true"
+        android:title="LTE"
+        />
+
+    <item android:id="@+id/nav_fibre"
+        android:checkable="true"
+        android:title="Fibre"
+        />
+        <item android:id="@+id/nav_adsl"
+            android:checkable="true"
+            android:title="ADSL"
+            />
+
+        </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/group_2"
+        android:checkableBehavior="single"
+        android:title="Statistics"
+        >
+
+        <menu>
+        <item android:id="@+id/nav_minutes"
+            android:checkable="true"
+            android:title="Voice Minutes left"
+            />
+
+        <item android:id="@+id/nav_data"
+            android:checkable="true"
+            android:title="Data Usage"
+            />
+
+        </menu>>
+    </item>
+
+</menu>

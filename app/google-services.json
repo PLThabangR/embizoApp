@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "823974721830",
+    "firebase_url": "https://project-2018-844a1.firebaseio.com",
+    "project_id": "project-2018-844a1",
+    "storage_bucket": "project-2018-844a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823974721830:android:84fd4d0bcc05d41f",
+        "android_client_info": {
+          "package_name": "com.embizo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823974721830-rli2rcp2361bckmqu942hjm9cq2bq187.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoxn0okFnFa6nonexdMThtzedTReOuDGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823974721830:android:747f3477b3e4dd71",
+        "android_client_info": {
+          "package_name": "embizo.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823974721830-8b549n6q0tn4jb2988kg6kkof8alj5dl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "embizo.com",
+            "certificate_hash": "ce6a5dfa0b46ea6efb9818317109db230bd1c1c9"
+          }
+        },
+        {
+          "client_id": "823974721830-rli2rcp2361bckmqu942hjm9cq2bq187.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoxn0okFnFa6nonexdMThtzedTReOuDGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823974721830-rli2rcp2361bckmqu942hjm9cq2bq187.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
