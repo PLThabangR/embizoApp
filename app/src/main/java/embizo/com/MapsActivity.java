@@ -178,7 +178,7 @@ public void checkPermision() {
 
     }else {
 
-
+//
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 
          //Request permision for this activity
